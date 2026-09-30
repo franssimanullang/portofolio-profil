@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Frans Eikel Martopgi Simanullang</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- CONTAINER UTAMA DENGAN CSS GRID -->
+    <div class="portfolio-layout">
+
+        <!-- NAVIGASI SIDEBAR (KIRI) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Frans Eikel</h2>
+                <p>NIM: 251401134</p>
+                <span class="badge-univ">USU - Ilmu Komputer</span>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> Kemampuan</a></li>
+                    <li><a href="#projects"><i class="fas fa-laptop-code"></i> Proyek</a></li>
+                    <li><a href="#contact"><i class="fas fa-address-book"></i> Kontak</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-info">
+                <p>S1 - Ilmu Komputer</p>
+                <p>Universitas Sumatera Utara</p>
+            </div>
+        </aside>
+
+        <!--KONTEN UTAMA (KANAN) -->
+        <main class="main-content">
+
+            <!--SECTION 1: ABOUT ME -->
+            <section id="about" class="section">
+                <div class="hero-block">
+                    <div class="hero-text">
+                        <span class="sub-title">Portofolio Mahasiswa</span>
+                        <h1>Halo, Saya <br><span class="highlight">Frans Eikel Martogi Simanullang</span></h1>
+                        <p class="intro-text">
+                            Mahasiswa S1 Ilmu Komputer Universitas Sumatera Utara yang berfokus pada pengembangan perangkat lunak, analisis data, dan memiliki ketertarikan tinggi pada dunia keamanan siber.
+                        </p>
+                        <a href="#projects" class="btn-action">Lihat Proyek Saya</a>
+                    </div>
+
+                    <!--FRAME PASFOTO 3x4 -->
+                    <div class="photo-wrapper">
+                        <div class="photo-frame-3x4">
+                            <img src="Foto_profil_portofolio.jpg" alt="Foto Pas 3x4 Frans Eikel" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="photo-placeholder">
+                                <i class="fas fa-portrait"></i>
+                                <span>Pasfoto 3x4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD HOBI -->
+                <div class="card-box">
+                    <h3><i class="fas fa-heart"></i> Hobi Saya</h3>
+                    <div class="grid-2col">
+                        <div class="hobby-card">
+                            <i class="fas fa-basketball-ball icon-accent"></i>
+                            <div>
+                                <h4>Bermain Basket</h4>
+                                <p>Hobi utama yang paling sering saya lakukan dan paling saya sukai.</p>
+                            </div>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-fish icon-accent"></i>
+                            <div>
+                                <h4>Memancing Ikan</h4>
+                                <p>Memancing bersama ayah di kolam pemancingan.</p>
+                            </div>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-code icon-accent"></i>
+                            <div>
+                                <h4>Programming</h4>
+                                <p>Memprogram web, aplikasi, dan eksplorasi koding.</p>
+                            </div>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-film icon-accent"></i>
+                            <div>
+                                <h4>Menonton Film</h4>
+                                <p>Genre favorit: Romance Comedy (Rom-Com).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD TARGET BELAJAR -->
+                <div class="card-box">
+                    <h3><i class="fas fa-bullseye"></i> Target Belajar Perkuliahan</h3>
+                    <ul class="target-list">
+                        <li><i class="fas fa-check-circle"></i> Menguasai keseluruhan syntax dan konsep logika pemrograman pada bahasa <strong>C++</strong>.</li>
+                        <li><i class="fas fa-check-circle"></i> Mempelajari bahasa pemrograman <strong>Python</strong> secara menyeluruh.</li>
+                        <li><i class="fas fa-check-circle"></i> Mendalami bidang <strong>Data Analysis</strong> menggunakan bahasa <strong>SQL</strong>.</li>
+                        <li><i class="fas fa-check-circle"></i> Menggali dan terjun lebih dalam ke dunia <strong>Cyber Security</strong>.</li>
+                        <li><i class="fas fa-check-circle"></i> Memanfaatkan hasil pembelajaran perkuliahan sebagai portofolio untuk melamar pekerjaan di dunia IT.</li>
+                    </ul>
+                </div>
+
+                <!--CARD WEBSITE FAVORIT -->
+                <div class="card-box">
+                    <h3><i class="fas fa-globe"></i> Website Favorit</h3>
+                    <div class="web-fav-grid">
+                        <a href="https://open.spotify.com/" target="_blank" class="web-card">
+                            <i class="fab fa-spotify"></i> Spotify Web
+                        </a>
+                        <a href="https://gemini.google.com/" target="_blank" class="web-card">
+                            <i class="fas fa-robot"></i> Gemini
+                        </a>
+                        <a href="https://discord.com/" target="_blank" class="web-card">
+                            <i class="fab fa-discord"></i> Discord
+                        </a>
+                        <a href="https://www.codedex.io" target="_blank" class="web-card">
+                            <i class="fas fa-terminal"></i> Codédex
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--SECTION 2: KEMAMPUAN -->
+            <section id="skills" class="section">
+                <h2 class="section-title">Kemampuan</h2>
+                <p class="section-desc">Bahasa pemrograman yang telah saya pelajari:</p>
+
+                <div class="skills-flex">
+                    <div class="skill-item"><i class="fas fa-code"></i> C++</div>
+                    <div class="skill-item"><i class="fas fa-terminal"></i> C</div>
+                    <div class="skill-item"><i class="fas fa-file-code"></i> Pascal</div>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                </div>
+            </section>
+
+            <!-- SECTION 3:PROYEK -->
+            <section id="projects" class="section">
+                <h2 class="section-title">Proyek</h2>
+                <p class="section-desc">Beberapa proyek yang telah selesai dikerjakan:</p>
+
+                <div class="projects-grid">
+                    <!-- Proyek 1 -->
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <i class="fas fa-stopwatch"></i>
+                        </div>
+                        <div class="project-details">
+                            <h3>Timer Pomodoro</h3>
+                            <p>Aplikasi pengatur waktu produktivitas berbasis teknik Pomodoro.</p>
+                            <a href="https://github.com/geoography/PomodoroTimer.git" target="_blank" class="btn-github">
+                                <i class="fab fa-github"></i> Repository GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Proyek 2 -->
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <i class="fas fa-cash-register"></i>
+                        </div>
+                        <div class="project-details">
+                            <h3>Sistem Kasir Cellphone</h3>
+                            <p>Program sistem kasir untuk pencatatan dan manajemen transaksi toko seluler.</p>
+                            <a href="https://github.com/franssimanullang/UTS_AP4_251401134_FransEikel.git" target="_blank" class="btn-github">
+                                <i class="fab fa-github"></i> Repository GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Proyek 3 -->
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-details">
+                            <h3>Pendeteksi Password</h3>
+                            <p>Sistem validasi dan penganalisis tingkat keamanan kata sandi (lemah / kuat).</p>
+                            <a href="https://github.com/franssimanullang/uas.git" target="_blank" class="btn-github">
+                                <i class="fab fa-github"></i> Repository GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--SECTION 4: KONTAK -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Kontak Saya</h2>
+                <p class="section-desc">Berikut adalah saluran kontak yang dapat dihubungi:</p>
+
+                <div class="contact-grid">
+                    <a href="mailto:franssimanullang05@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <strong>franssimanullang05@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/6282226585215" target="_blank" class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <span>WhatsApp</span>
+                            <strong>082226585215</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/franssimanullang" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span>GitHub</span>
+                            <strong>github.com/franssimanullang</strong>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <p>&copy; 2026 Frans Eikel Martopgi Simanullang (251401134) - S1 Ilmu Komputer Universitas Sumatera Utara.</p>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
